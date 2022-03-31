@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.lenovo.xiaoxin.pad.plus"
+        android:versionCode="4"
+        android:versionName="1.3">
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+                android:requiredSystemPropertyValue="+*enovo/LenovoTB-J607F*"
+		android:priority="1"
+		android:isStatic="true" />
+</manifest>
