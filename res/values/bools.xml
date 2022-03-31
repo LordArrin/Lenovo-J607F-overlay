@@ -7,7 +7,7 @@
     <bool name="config_animateScreenLights">true</bool>
     <bool name="config_apfDrop802_3Frames">true</bool>
     <bool name="config_autoBrightnessResetAmbientLuxAfterWarmUp">true</bool>
-    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_automatic_brightness_available">false</bool>
     <bool name="config_automotiveHideNavBarForKeyboard">true</bool>
     <bool name="config_avoidGfxAccel">false</bool>
     <bool name="config_battery_percentage_setting_available">true</bool>
@@ -58,7 +58,6 @@
     <bool name="config_enable_puk_unlock_screen">false</bool>
     <bool name="config_enabled_lte">false</bool>
     <bool name="config_externaldisplay_enabled">true</bool>
-    <bool name="config_faceAuthDismissesKeyguard">true</bool>
     <bool name="config_forceShowSystemBars">false</bool>
     <bool name="config_freeformWindowManagement">true</bool>
     <bool name="config_hasRecents">true</bool>
@@ -70,8 +69,6 @@
     <bool name="config_mobile_data_capable">false</bool>
     <bool name="config_nightdoze_enabled">true</bool>
     <bool name="config_noHomeScreen">false</bool>
-    <bool name="config_pinnerCameraApp">false</bool>
-    <bool name="config_pinnerHomeApp">false</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_requireCallCapableAccountForHandle">false</bool>
@@ -128,7 +125,7 @@
     <bool name="config_useWebViewPacProcessor">true</bool>
     <bool name="config_use_sim_language_file">false</bool>
     <bool name="config_use_voip_mode_for_ims">false</bool>
-    <bool name="config_vendorWifi11axReadySupport">true</bool>
+    <bool name="config_vendorWifi11axReadySupport">false</bool>
     <bool name="config_vendor_wifi_softap_owe_supported">true</bool>
     <bool name="config_vibration_supports_multiple_intensities">true</bool>
     <bool name="config_voice_capable">false</bool>
