@@ -6,7 +6,6 @@
     <bool name="config_allowSeamlessRotationDespiteNavBarMoving">false</bool>
     <bool name="config_animateScreenLights">true</bool>
     <bool name="config_apfDrop802_3Frames">true</bool>
-    <bool name="config_autoBrightnessResetAmbientLuxAfterWarmUp">true</bool>
     <bool name="config_automatic_brightness_available">false</bool>
     <bool name="config_automotiveHideNavBarForKeyboard">true</bool>
     <bool name="config_avoidGfxAccel">false</bool>
@@ -37,10 +36,9 @@
     <bool name="config_displayBrightnessBucketsInDoze">true</bool>
     <bool name="config_displayWhiteBalanceAvailable">true</bool>
     <bool name="config_dolby_enabled">true</bool>
+    <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-    <bool name="config_dozeAlwaysOnEnabled">false</bool>
-    <bool name="config_dozePulsePickup">false</bool>
+    <bool name="config_dozePulsePickup">true</bool>
     <bool name="config_dozeSupportsAodWallpaper">true</bool>
     <bool name="config_duplicate_port_omadm_wappush">false</bool>
     <bool name="config_dynamic_bind_ims">false</bool>
@@ -63,7 +61,6 @@
     <bool name="config_hasRecents">true</bool>
     <bool name="config_hearing_aid_profile_supported">false</bool>
     <bool name="config_hotswapCapable">false</bool>
-    <bool name="config_inflateSignalStrength">false</bool>
     <bool name="config_lidControlsSleep">true</bool>
     <bool name="config_longtimechargingprotect_enabled">true</bool>
     <bool name="config_mobile_data_capable">false</bool>
@@ -86,8 +83,8 @@
     <bool name="config_showDefaultHome">true</bool>
     <bool name="config_showNavigationBar">false</bool>
     <bool name="config_show_refresh_rate_switch">false</bool>
+    <bool name="config_show_mobile_plan">false</bool>
     <bool name="config_sip_wifi_only">false</bool>
-    <bool name="config_skipScreenOnBrightnessRamp">false</bool>
     <bool name="config_sms_authorization_enabled">false</bool>
     <bool name="config_sms_capable">false</bool>
     <bool name="config_sms_decode_gsm_8bit_data">false</bool>
@@ -111,18 +108,14 @@
     <bool name="config_supportsSplitScreenMultiWindow">true</bool>
     <bool name="config_supportsSystemDecorsOnSecondaryDisplays">true</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">false</bool>
-    <bool name="config_sustainedPerformanceModeSupported">false</bool>
     <bool name="config_tether_enable_legacy_dhcp_server">false</bool>
     <bool name="config_turnoff_screen_when_slipcover_block_proximity_sensor">true</bool>
     <bool name="config_ui_enableFadingMarquee">true</bool>
     <bool name="config_unplugTurnsOnScreen">false</bool>
-    <bool name="config_useAssistantVolume">false</bool>
-    <bool name="config_useAttentionLight">false</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_useRoundIcon">false</bool>
     <bool name="config_useSmsAppService">false</bool>
     <bool name="config_useSystemProvidedLauncherForSecondary">true</bool>
-    <bool name="config_useWebViewPacProcessor">true</bool>
     <bool name="config_use_sim_language_file">false</bool>
     <bool name="config_use_voip_mode_for_ims">false</bool>
     <bool name="config_vendorWifi11axReadySupport">false</bool>
@@ -152,7 +145,6 @@
     <bool name="config_wirelessConsentRequired">false</bool>
     <bool name="config_zramWriteback">true</bool>
     <bool name="def_prox_tof_enabled">false</bool>
-    <bool name="def_screen_brightness_automatic_mode">true</bool>
     <bool name="doze_display_state_supported">true</bool>
     <bool name="doze_proximity_check_before_pulse">false</bool>
     <bool name="hac_enabled">false</bool>

@@ -13,16 +13,20 @@
     </string-array>
     <string-array name="config_tether_usb_regexs">
         <item>rndis0</item>
+        <item>usb0</item>
     </string-array>
     <integer-array name="config_tether_upstream_types">
         <item>1</item>
-        <item>5</item>
         <item>7</item>
+        <item>9</item>
     </integer-array>
     <string-array name="config_tether_wifi_regexs">
         <item>wlan0</item>
         <item>softap0</item>
         <item>wigig0</item>
+    </string-array>
+    <string-array name="config_tether_wifi_p2p_regexs">
+        <item>p2p-p2p\\d-.*</item>
     </string-array>
     <string-array name="config_tether_bluetooth_regexs">
         <item>bt-pan</item>
@@ -49,75 +53,6 @@
         <item>/system_ext/priv-app/SystemUI/SystemUI.apk</item>
         <item>/system/lib64/libsurfaceflinger.so</item>
     </string-array>
-    <integer-array name="config_ambientBrighteningThresholds">
-        <item>100</item>
-    </integer-array>
-    <integer-array name="config_ambientDarkeningThresholds">
-        <item>200</item>
-    </integer-array>
-    <integer-array name="config_autoRotationTiltTolerance">
-        <item>-25</item>
-        <item>70</item>
-        <item>-25</item>
-        <item>65</item>
-        <item>-25</item>
-        <item>60</item>
-        <item>-25</item>
-        <item>65</item>
-    </integer-array>
-    <array name="config_displayWhiteBalanceDecreaseThresholds">
-        <item>0.1</item>
-    </array>
-    <string-array name="config_displayWhiteBalanceDisplayNominalWhite">
-        <item>0.950456</item>
-        <item>1.000000</item>
-        <item>1.089058</item>
-    </string-array>
-    <string-array name="config_displayWhiteBalanceDisplayPrimaries">
-        <item>0.412315</item>
-        <item>0.212600</item>
-        <item>0.019327</item>
-        <item>0.357600</item>
-        <item>0.715200</item>
-        <item>0.119200</item>
-        <item>0.180500</item>
-        <item>0.072200</item>
-        <item>0.950633</item>
-        <item>0.950456</item>
-        <item>1.000000</item>
-        <item>1.089058</item>
-    </string-array>
-    <array name="config_displayWhiteBalanceIncreaseThresholds">
-        <item>0.1</item>
-    </array>
-    <array name="config_displayWhiteBalanceLowLightAmbientBiases">
-        <item>0.0</item>
-        <item>1.0</item>
-    </array>
-    <array name="config_displayWhiteBalanceLowLightAmbientBrightnesses">
-        <item>10.0</item>
-        <item>10.0</item>
-    </array>
-    <integer-array name="config_dynamicHysteresisBrightLevels">
-        <item>1000</item>
-        <item>1000</item>
-        <item>500</item>
-        <item>300</item>
-        <item>100</item>
-    </integer-array>
-    <integer-array name="config_dynamicHysteresisDarkLevels">
-        <item>800</item>
-        <item>800</item>
-        <item>400</item>
-        <item>200</item>
-        <item>200</item>
-    </integer-array>
-    <integer-array name="config_dynamicHysteresisLuxLevels">
-        <item>6</item>
-        <item>35</item>
-        <item>230</item>
-        <item>633</item>
-    </integer-array>
     <string-array name="config_ephemeralResolverPackage">
         <item>com.google.android.gms</item>
     </string-array>
@@ -141,29 +76,8 @@
         <item>com.android.vending</item>
         <item>com.google.uid.shared</item>
     </string-array>
-    <string-array name="config_nightDisplayColorTemperatureCoefficients">
-        <item>0.0</item>
-        <item>0.0</item>
+    <array name="config_screenBrightnessNits">
         <item>1.0</item>
-        <item>-0.00000000962353339</item>
-        <item>0.000153045476</item>
-        <item>0.390782778</item>
-        <item>-0.0000000189359041</item>
-        <item>0.000302412211</item>
-        <item>-0.198650895</item>
-    </string-array>
-    <string-array name="config_nightDisplayColorTemperatureCoefficientsNative">
-        <item>0.0</item>
-        <item>0.0</item>
-        <item>1.0</item>
-        <item>-0.00000000962353339</item>
-        <item>0.000153045476</item>
-        <item>0.390782778</item>
-        <item>-0.0000000189359041</item>
-        <item>0.000302412211</item>
-        <item>-0.198650895</item>
-    </string-array>
-    <string-array name="config_wearActivityModeRadios">
-        <item>wifi</item>
-    </string-array>
+        <item>800.0</item>
+    </array>
 </resources>

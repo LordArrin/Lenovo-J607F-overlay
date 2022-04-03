@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="config_customizedMaxCachedProcesses">64</integer>
     <integer name="config_defaultPeakRefreshRate">60</integer>
     <integer name="config_defaultRefreshRate">0</integer>
     <integer name="config_defaultRefreshRateInZone">60</integer>
@@ -9,13 +8,8 @@
     <integer name="config_screenRecorderMaxFramerate">60</integer>
     <integer name="config_screen_magnification_multi_tap_adjustment">-50</integer>
     <integer name="config_screen_off_delay">0</integer>
-    <integer name="config_screen_rotation_color_transition">200</integer>
-    <integer name="config_screen_rotation_fade_in">233</integer>
-    <integer name="config_screen_rotation_fade_in_delay">100</integer>
-    <integer name="config_screen_rotation_fade_out">116</integer>
-    <integer name="config_screen_rotation_total_180">433</integer>
-    <integer name="config_screen_rotation_total_90">333</integer>
     <integer name="config_shutdownBatteryTemperature">700</integer>
-    <integer name="config_wifiHardwareSoftapMaxClientCount">32</integer>
-    <integer name="config_longPressOnPowerBehavior">2</integer>
+    <integer name="config_screenBrightnessDoze">1</integer>
+    <integer name="config_wifi_wakeup_available">1</integer>
+    <integer name="config_wakeUpDelayDoze">32</integer>
 </resources>
