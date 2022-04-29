@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
-    <string name="config_geocodeProviderPackageName">com.google.android.location</string>
     <string name="config_qualified_networks_service_package">vendor.qti.iwlan</string>
-    <string name="config_systemAudioIntelligence">com.qualcomm.qti.cne</string>
     <string name="config_wlan_data_service_package">vendor.qti.iwlan</string>
     <string name="config_wlan_network_service_package">vendor.qti.iwlan</string>
-    <string name="config_networkLocationProviderPackageName">com.google.android.location</string>
-    <string name="config_tcp_buffers">2097152,6291456,16777216,512000,2097152,8388608</string>
-    <string name="wifi_tether_configure_ssid_default">Xiaoxin Pad Plus</string>
+    <string name="config_comboNetworkLocationProvider">com.qualcomm.location</string>
+    <string name="config_networkLocationProviderPackageName">com.qualcomm.location</string>
+    <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
+    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone10/temp</string>
+    <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
+    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
 </resources>
