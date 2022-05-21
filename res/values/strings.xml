@@ -9,4 +9,5 @@
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone10/temp</string>
     <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
     <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
+    <string name="wifi_tether_configure_ssid_default">Xiaoxin Pad Plus</string>
 </resources>

@@ -4,9 +4,9 @@
     <integer name="config_defaultRefreshRate">0</integer>
     <integer name="config_defaultRefreshRateInZone">60</integer>
     <integer name="config_screenRecorderMaxFramerate">60</integer>
+    <integer name="config_lightSensorWarmupTime">200</integer>
     <integer name="config_screen_magnification_multi_tap_adjustment">-50</integer>
-    <integer name="config_screen_off_delay">0</integer>
+    <integer name="config_screen_off_delay">20</integer>
     <integer name="config_shutdownBatteryTemperature">700</integer>
-    <integer name="config_screenBrightnessDoze">1</integer>
     <integer name="config_wakeUpDelayDoze">32</integer>
 </resources>
