@@ -22,5 +22,5 @@ The Lenovo Xiaoxin Pad Plus (codenamed _"arnoz_prc"_) is a mid-range tablet from
 | Battery                 | Non-removable 7700mAh Li-ion battery                                                                                           |
 | Dimensions              | 258.4 x 163 x 7.9 mm                                                                                                           |
 | Display                 | 11" IPS LCD 2000 x 1200 pixels                                                                                                 |
-| Rear camera             | 8 MP (Camera2 Api Level 3)                                                                                                     |
-| Front camera            | 13 MP     (Camera2 Api Level 3)                                                                                                |
+| Rear camera             | 8 MP (Camera2 API Level 3)                                                                                                     |
+| Front camera            | 13 MP     (Camera2 API Level 3)                                                                                                |
