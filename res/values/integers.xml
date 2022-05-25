@@ -9,4 +9,5 @@
     <integer name="config_screen_off_delay">20</integer>
     <integer name="config_shutdownBatteryTemperature">700</integer>
     <integer name="config_wakeUpDelayDoze">32</integer>
+    <integer name="config_sysBatteryTempMultiplier">10</integer>
 </resources>
