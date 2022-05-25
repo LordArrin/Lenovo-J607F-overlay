@@ -92,6 +92,7 @@
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
     <bool name="config_supportAutoRotation">true</bool>
     <bool name="config_supportBluetoothPersistedState">true</bool>
+    <bool name="config_supportBatteryHealth">true</bool>
     <bool name="config_supportDoubleTapWake">true</bool>
     <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
     <bool name="config_supportMicNearUltrasound">true</bool>
