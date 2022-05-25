@@ -81,6 +81,7 @@
     <bool name="config_showDefaultHome">true</bool>
     <bool name="config_showNavigationBar">false</bool>
     <bool name="config_sip_wifi_only">false</bool>
+    <bool name="config_smartChargingAvailable">true</bool>
     <bool name="config_sms_authorization_enabled">false</bool>
     <bool name="config_sms_capable">false</bool>
     <bool name="config_sms_decode_gsm_8bit_data">false</bool>
