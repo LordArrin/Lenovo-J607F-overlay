@@ -3,8 +3,6 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+*enovo/LenovoTB-J607F*"
 		android:priority="5"
 		android:isStatic="true" />
 </manifest>
