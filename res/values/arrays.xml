@@ -162,29 +162,33 @@
 		<item>200</item>
 	</integer-array>
 	<array name="config_screenThresholdLevels" />
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>6</item>
-        <item>20</item>
-        <item>38</item>
-        <item>55</item>
-        <item>93</item>
-        <item>143</item>
-        <item>199</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-    </integer-array>
-    <integer-array name="config_autoBrightnessLevels">
-        <item>2</item>
-        <item>50</item>
-        <item>150</item>
-        <item>275</item>
-        <item>580</item>
-        <item>980</item>
-        <item>1450</item>
-        <item>2290</item>
-        <item>2865</item>
-    </integer-array>
+	<integer-array name="config_autoBrightnessLcdBacklightValues">
+		<item>6</item>
+		<item>20</item>
+		<item>38</item>
+		<item>59</item>
+		<item>85</item>
+		<item>98</item>
+		<item>120</item>
+		<item>150</item>
+		<item>199</item>
+		<item>220</item>
+		<item>240</item>
+		<item>255</item>
+	</integer-array>
+	<integer-array name="config_autoBrightnessLevels">
+		<item>2</item>
+		<item>25</item>
+		<item>60</item>
+		<item>140</item>
+		<item>250</item>
+		<item>375</item>
+		<item>680</item>
+		<item>1180</item>
+		<item>2450</item>
+		<item>3490</item>
+		<item>4095</item>
+	</integer-array>
 	<string-array name="config_tether_usb_regexs">
 		<item>"usb\\d"</item>
 		<item>"rndis\\d"</item>
